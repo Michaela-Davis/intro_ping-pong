@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.form-group {
+  font-size: 130%;
+  padding: 10px;
+}
+
+.well {
+  background-color: teal;
+  text-align: center;
+  border: none;
+}
