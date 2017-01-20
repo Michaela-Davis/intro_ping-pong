@@ -31,6 +31,11 @@ _Does not require a server or setting up a database._
 * The program should replace numbers divisible by 15 with "pingpong"
   * Input Example: 15
   * Output Example: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
+* The program should allow user to enter a new number and see new results over and over again
+  * Input Example: 2
+  * Output Example: [1, 2]
+  * Input Example: 5
+  * Output Example: [1, 2, ping, 4, pong]
 
 ## Known Bugs
 
