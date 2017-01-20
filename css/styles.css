@@ -24,6 +24,13 @@ h2 {
   padding-left: 20px;
 }
 
+#userInput {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
 .btn {
   background-color: teal;
+  font-size: 25px;
+  font-weight: bolder;
 }
