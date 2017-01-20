@@ -2,6 +2,12 @@
 // * The program should allow user to enter a new number and see new results over and over again
 
 // BACK-END / BUSINESS LOGIC
+
+var emptyArray = [];
+var emptyString = ("");
+
+
+
 var convertNumber = function(number) {
   // * The program should replace numbers divisible by 15 with "pingpong"
   if (number % 15 === 0) {
@@ -23,7 +29,6 @@ var convertNumber = function(number) {
 $(document).ready(function() {
   $(".form").submit(function(event) {
     event.preventDefault();
-
     var number = parseInt($("input#userInput").val());
     var result = convertNumber(number);
     $("#result").text(result);

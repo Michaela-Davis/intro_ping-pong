@@ -19,7 +19,7 @@ _This is a webpage application built using HTML, CSS, Bootstrap, JavaScript, and
 _Does not require a server or setting up a database._
 
 ## Specifications
-* The program should count up to the provided number
+* The program should count up to the provided number -SEE KNOWN BUGS-
   * Input Example: 2
   * Output Example: [1, 2]
 * The program should replace numbers divisible by 3 with "ping"
@@ -39,7 +39,7 @@ _Does not require a server or setting up a database._
 
 ## Known Bugs
 
-_No known bugs or issues_
+_The program DOES NOT count up to the provided number._
 
 ## Support and contact details
 
