@@ -27,6 +27,7 @@ h2 {
 #userInput {
   font-size: 25px;
   font-weight: bolder;
+  max-width: 300px;
 }
 
 .btn {

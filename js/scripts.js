@@ -7,9 +7,9 @@
 // BACK-END / BUSINESS LOGIC
 var convertNumber = function(number) {
   if (number) {
-    console.log(number)
+    return number;
   } else {
-    alert("Enter a number")
+    alert("Enter a number");
   }
 };
 
@@ -18,7 +18,7 @@ $(document).ready(function() {
   $(".form").submit(function(event) {
     event.preventDefault();
 
-    var number = parseInt($("#userInput").val());
+    var number = parseInt($("input#userInput").val());
     var result = convertNumber(number);
     $("#result").text(result);
   });
