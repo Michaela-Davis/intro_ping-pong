@@ -3,9 +3,6 @@
 
 // BACK-END / BUSINESS LOGIC
 
-var emptyArray = [];
-var emptyString = ("");
-
 
 
 var convertNumber = function(number) {
@@ -30,7 +27,14 @@ $(document).ready(function() {
   $(".form").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("input#userInput").val());
-    var result = convertNumber(number);
-    $("#result").text(result);
+    var resultArray = [];
+
+    for(var counter = 1; counter <= number; counter ++) {
+      resultArray.push(counter);
+    }
+    console.log(resultArray)
+
+    // var result = convertNumber(number);
+    $("#result").text(resultArray);
   });
 });
