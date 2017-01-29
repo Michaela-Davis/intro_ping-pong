@@ -35,11 +35,12 @@ h2 {
   background-color: teal;
   font-size: 25px;
   font-weight: bolder;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #result {
   font-size: 35px;
   font-weight: bolder;
   letter-spacing: 3px;
+  margin-bottom: 50px;
 }
